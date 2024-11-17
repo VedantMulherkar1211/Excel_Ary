@@ -1,0 +1,19 @@
+{
+    "name": "vendor/composer",
+    "description": "plugin",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vedant"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpoffice/phpspreadsheet": "^3.4"
+    }
+}

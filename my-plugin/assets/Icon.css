@@ -1,0 +1,5 @@
+#toplevel_page_my-plugin-page .wp-menu-image img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
